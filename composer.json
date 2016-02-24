@@ -1,0 +1,12 @@
+{
+    "name": "DooMinik/dmees.hol.es",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DooMinik",
+            "email": "dominik.mees@gmx.com"
+        }
+    ]
+}
