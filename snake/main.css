@@ -1,0 +1,19 @@
+body{background:#444;margin:0.5%;padding:0}
+div{margin:0;padding:0}
+.map{margin:0 auto;width:640px;height:480px;background:#eee;box-shadow:#789 0px 0px 5px 5px}
+.block{position:relative;width:16px;height:16px;margin-bottom:-16px}
+
+[data-type = 'body']{background:#171}
+[data-type = 'head']{background:#4a4;border-radius:1px}
+[data-type = 'apple']{background:#FAA;border-radius:50%;box-shadow:#711 -2px -2px 5px 2px inset}
+
+.nav{margin:0 auto; width:640px; position:relative; top:-480px}
+.btn{margin-right:-160px;float:left;position:relative;font-style:monospace;padding:40px;font-size:80px;cursor:pointer;color:#777;box-shadow:0 0 10px 0px #000 inset;box-sizing:border-box;opacity:0.09}
+
+#score{box-shadow:none;float:none;margin:0;padding:0;top:190px;left:240px;width:160px;display:inline-block;text-align:center;cursor:text}
+
+.larr{left:0px;top:154px}
+.rarr{left:480px;top:154px}
+
+.darr{left:240px;top:307px}
+.uarr{left:240px;top:0px}

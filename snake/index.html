@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<link href="main.css" rel="stylesheet">
+<div class="map"></div>
+<div class="nav">
+	<a class="btn uarr" onclick="javascript:if(snake.d != 'd')snake.tmpDir = 'u';">&nbsp;&uarr;&nbsp;</a>
+	<a class="btn larr" onclick="javascript:if(snake.d != 'r')snake.tmpDir = 'l';">&larr;</a>
+	<a class="btn rarr" onclick="javascript:if(snake.d != 'l')snake.tmpDir = 'r';">&rarr;</a>
+	<a class="btn darr" onclick="javascript:if(snake.d != 'u')snake.tmpDir = 'd';">&nbsp;&darr;&nbsp;</a>
+	<strong id="score" class="btn">1</strong>
+</div>
+<script src="main.js"></script>
